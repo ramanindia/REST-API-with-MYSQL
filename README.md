@@ -6,6 +6,9 @@ A powerful RESTful API built using Node.js, Express, and MYSQL, designed for eff
   Node.js v18 or higher
 
   MySQL server
+  
+Edit the required value in folder `src/assets` file `config.json`.
+  ```js
 
   { 
   "HOST_NAME": "127.0.0.1",  
@@ -39,6 +42,8 @@ A powerful RESTful API built using Node.js, Express, and MYSQL, designed for eff
     "queueLimit": 0
   }
 }
+
+```
 
 Replace credentials and database names as required.
 
